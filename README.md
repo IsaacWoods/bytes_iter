@@ -1,8 +1,8 @@
-# `bytes-iter`
+# `bytes_iter`
 A smol utility crate for taking any `Iterator<Item=&u8>` and taking a mixture of the next `u8`, `u16`, `u32` and `u64`s from it. Useful for parsing binary formats.
 
 ### Example
-![Example](https://github.com/IsaacWoods/bytes_iter/blob/master/example.png)
+![Example](./example.png)
 
 ### License
 `bytes-iter` is dual licensed under:

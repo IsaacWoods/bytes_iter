@@ -1,6 +1,6 @@
 [package]
 name = "bytes_iter"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Isaac Woods <isaac@isaacwoods.tk>"]
 description = "Tiny crate for consuming series of bytes from iterators"
 repository = "https://github.com/IsaacWoods/bytes-iter"
