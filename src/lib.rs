@@ -1,11 +1,11 @@
 #![no_std]
 
 // TODO: can this be easily extended to support both endianesses?
-pub struct ByteReader<'a, T>(T) where T: Iterator<Item=&'a u8>;
+pub struct ByteReader<'a, T: Iterator<Item = &'a u8>>(T);
 
 impl<'a, T> ByteReader<'a, T>
 where
-    T: Iterator<Item=&'a u8>
+    T: Iterator<Item = &'a u8>,
 {
     pub fn new(iter: T) -> ByteReader<'a, T> {
         ByteReader(iter)
